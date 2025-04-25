@@ -3,12 +3,12 @@ import java.awt.*;
 import common.Order;
 import managers.OrderManager;
 
-public class frmOrderManager extends JFrame {
+public class frmInventory extends JFrame {
     private JTextArea txtOrders;
     private JButton btnConfirm;
     private OrderManager om;
 
-    public frmOrderManager() {
+    public frmInventory() {
         setTitle("📦 Manage Orders (Manager)");
         setSize(850, 600);
         setLocationRelativeTo(null);
@@ -73,6 +73,6 @@ public class frmOrderManager extends JFrame {
     }
 
     public static void main(String[] args) {
-        new frmOrderManager();
+        new frmInventory();
     }
 }
