@@ -44,4 +44,9 @@ public class User {
     public void setRole(String role) {
         this.role = role;
     }
+
+       @Override
+    public String toString() {
+        return id + ";" + username + ";" + password + ";" + role;
+    }
 }
