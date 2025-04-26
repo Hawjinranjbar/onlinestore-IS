@@ -1,7 +1,7 @@
 package managers;
 
 import common.Product;
-import filemanager.txtFileManager;
+import fileManager.txtFileManager;
 
 public class ProductManager {
     txtFileManager fm;

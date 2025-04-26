@@ -1,4 +1,4 @@
-package filemanager;
+package fileManager;
 
 import java.io.*;
 import java.util.ArrayList;
